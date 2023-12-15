@@ -16,7 +16,7 @@ Momentum sistem partikel sebelum tumbukan tentu saja sama dengan **jumlah moment
 bola A dan bola B sebelum tumbukan. 
 """)
 
-image1 = open('media/momentum.png',)
+image1 = open('media/momentum.png','rb')
 imagetest1 = image1.read()
 st.image(imagetest1)
 
