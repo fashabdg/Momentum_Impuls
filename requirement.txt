@@ -5,4 +5,4 @@ seaborn
 plotly
 pandas
 joblib
-pillow
+Pillow 10.0
