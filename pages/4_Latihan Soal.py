@@ -94,8 +94,7 @@ waktu = st.number_input("Masukkan waktu pergerakan (detik): ",0,10)
 
 if st.button("Hitung perubahan momentum"):
     perubahan_momentum = hitung_perubahan_momentum()
-    st.success(f"Perubahan momentum benda setelah bergerak selama {waktu} detik 
-    adalah {perubahan_momentum} kg*m/s")
+    st.success(f"Perubahan momentum benda setelah bergerak selama {waktu} detik adalah {perubahan_momentum} kg*m/s")
 
 
 
