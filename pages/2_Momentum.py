@@ -23,12 +23,16 @@ st.markdown("""
 bola A dan bola B sesudah tumbukan. 
 """)
 
+st.image('Momentum-akhir.png')
+
 st.markdown("""            
 Dari peristiwa tumbukan mendatar di atas, dapat simpulkan bahwa momentum total sistem 
 sesaat sebelum tumbukan sama dengan momentum total sistem sesaat sesudah tumbukan, 
 asalkan tidak ada gaya luar yang bekerja pada sistem. Pernyataan ini dikenal dengan 
 nama hukum kekekalan momentum linier. Secara matematis dirumuskan sebagai berikut: 
 """)
+
+st.image('Momentum3.png')
 
 st.markdown("""
 ## b. Momentum Linear
