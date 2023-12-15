@@ -16,18 +16,10 @@ Momentum sistem partikel sebelum tumbukan tentu saja sama dengan **jumlah moment
 bola A dan bola B sebelum tumbukan. 
 """)
 
-video4 = open('Momentum.mp4','rb')
-videotest4 = video4.read()
-st.video(videotest4)
-
 st.markdown("""            
 **Momentum sistem partikel sesudah tumbukan** tentu saja sama dengan jumlah momentum 
 bola A dan bola B sesudah tumbukan. 
 """)
-
-video5 = open('Momentum3.mp4','rb')
-videotest5 = video5.read()
-st.video(videotest5)
 
 st.markdown("""            
 Dari peristiwa tumbukan mendatar di atas, dapat simpulkan bahwa momentum total sistem 
