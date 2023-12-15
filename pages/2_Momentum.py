@@ -16,10 +16,6 @@ Momentum sistem partikel sebelum tumbukan tentu saja sama dengan **jumlah moment
 bola A dan bola B sebelum tumbukan. 
 """)
 
-gambar=open('media/momentum.png','rb')
-gambartest = gambar.read()
-st.image(gambartest)
-
 st.markdown("""            
 **Momentum sistem partikel sesudah tumbukan** tentu saja sama dengan jumlah momentum 
 bola A dan bola B sesudah tumbukan. 
