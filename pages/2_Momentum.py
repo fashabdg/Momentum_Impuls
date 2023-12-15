@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import image
 
 st.markdown("""
 # 1. Momentum
@@ -15,6 +16,10 @@ dengan momentum mava dan bola B bergerak mendatar ke kiri dengan momentum mbvb.
 Momentum sistem partikel sebelum tumbukan tentu saja sama dengan **jumlah momentum** 
 bola A dan bola B sebelum tumbukan. 
 """)
+
+gambar1 = open('media/momentum.png','rb')
+gambartest1 = gambar1.read()
+st.image(gambartest1)
 
 st.markdown("""            
 **Momentum sistem partikel sesudah tumbukan** tentu saja sama dengan jumlah momentum 
