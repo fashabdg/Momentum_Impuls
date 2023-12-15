@@ -21,20 +21,12 @@ st.markdown("""
 bola A dan bola B sesudah tumbukan. 
 """)
 
-gambar2 = open('media/momentum-akhir.png','rb')
-gambartest2 = gambar2.read()
-st.image(gambartest2)
-
 st.markdown("""            
 Dari peristiwa tumbukan mendatar di atas, dapat simpulkan bahwa momentum total sistem 
 sesaat sebelum tumbukan sama dengan momentum total sistem sesaat sesudah tumbukan, 
 asalkan tidak ada gaya luar yang bekerja pada sistem. Pernyataan ini dikenal dengan 
 nama hukum kekekalan momentum linier. Secara matematis dirumuskan sebagai berikut: 
 """)
-
-gambar3 = open('media/momentum3.png','rb')
-gambartest3 = gambar3.read()
-st.image(gambartest3)
 
 st.markdown("""
 ## b. Momentum Linear
