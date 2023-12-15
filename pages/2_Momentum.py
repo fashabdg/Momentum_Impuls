@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import image
 
 st.markdown("""
 # 1. Momentum
