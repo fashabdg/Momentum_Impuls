@@ -6,3 +6,4 @@ plotly
 pandas
 joblib
 Pillow 10.0
+gsheets
