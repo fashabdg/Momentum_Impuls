@@ -8,3 +8,4 @@ joblib
 Pillow 10.0
 gsheets
 connection
+st-gsheets-connection
