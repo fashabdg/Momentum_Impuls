@@ -3,6 +3,10 @@ import streamlit as st
 st.set_page_config(page_title="Home",page_icon="⭐")
 st.title("MODUL SEDERHANA")
 
+gambar1 = open('media/science.jpg','rb')
+gambartest1 = gambar1.read()
+st.image(gambartest1)
+
 st.markdown("""
 ## Daftar Isi
             
