@@ -1,2 +1,11 @@
+numpy
 streamlit
+matplotlib
+seaborn
+plotly
+pandas
+joblib
+Pillow 10.0
+gsheets
+connection
 st-gsheets-connection
