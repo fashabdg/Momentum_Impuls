@@ -9,3 +9,7 @@ Pillow 10.0
 gsheets
 connection
 st-gsheets-connection
+pytest
+mypy
+ruff
+-e .
