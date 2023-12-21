@@ -8,7 +8,7 @@ st.markdown("Enter the details of the new test below.")
 url = "https://docs.google.com/spreadsheets/d/1ULklRn3sur4FGOYbI4uJ_-IJS7LjRkxUSVtXJxA5YGE/edit?usp=sharing"
 
 # Establishing a Google Sheets connection
-conn = st.connection("gsheets", type=GSheetsConnection)
+
 
 # Fetch existing vendors data
 existing_data = conn.read(usecols=list(range(3)), worksheet="test")
